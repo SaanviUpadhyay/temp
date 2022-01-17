@@ -13,8 +13,8 @@ import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
 
 export default class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       text: '',
       chunks: [],
